@@ -1,0 +1,4 @@
+ID	Compiler	Reference	Columns	Description
+Wang1980	Johann-Mattis List	Wang1980	IPA,STRUCTURE	This orthography profile converts Wáng Lì's system for Old Chinese reconstruction into IPA. As there are traditionally many uncertainties with reconstruction systems, we indicate some segments in the `source/target` style employed by LingPy and CLDF.
+SinoPy	Johann-Mattis List	List2018g	IPA,STRUCTURE	This profile is intended as a master list for the segmentation of Chinese dialect data and (more generally) Sino-Tibetan and SEA language data. The list was compiled in a very technical fashion, during which artificial sound sequences were automatically created. The goal is to provide a powerful orthography profile that makes it easy to test and segment SEA language data.
+
