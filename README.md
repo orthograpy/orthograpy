@@ -3,7 +3,7 @@
 Usage example:
 
 ```
->>> from orthographies import get_orthography
+>>> from orthograpy import get_orthography
 >>> wang = get_orthography('Wang1980')
 >>> wang('tiang', column='IPA')
 't i a ŋ'

@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-        name='orthographies',
+        name='orthograpy',
         author='Johann-Mattis List',
         url='https://github.com/lingpy/lingrex',
         classifiers=[
