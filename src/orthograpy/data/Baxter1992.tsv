@@ -1,0 +1,509 @@
+Graphemes	Baxter1992	IPA	STRUCTURE
+P	NULL	NULL	t
+R	NULL	NULL	t
+$	NULL	NULL	NULL
+^	NULL	NULL	NULL
+'	'	ʔ	i
+b	b	b	i
+d	d	d	i
+dr	dr	ɖ	i
+dz	dz	dz	i
+dzr	dzr	ɖʐ	i
+dzy	dzy	dʑ	i
+g	g	g	i
+h	h	ɣ	i
+k	k	k	i
+kh	kh	kʰ	i
+l	l	l	i
+m	m	m	i
+n	n	n	i
+ng	ng	ŋ	i
+nr	nr	ɳ	i
+ny	ny	ɲ	i
+p	p	p	i
+ph	ph	pʰ	i
+s	s	s	i
+sr	sr	ʂ	i
+sy	sy	ɕ	i
+t	t	t	i
+th	th	tʰ	i
+tr	tr	ʈ	i
+trh	trh	ʈʰ	i
+ts	ts	ts	i
+tsh	tsh	tsʰ	i
+tsr	tsr	ʈʂ	i
+tsrh	tsrh	ʈʂʰ	i
+tsy	tsy	tɕ	i
+tsyh	tsyh	tɕʰ	i
+x	x	x	i
+y	y	j	i
+z	z	z	i
+zr	zr	ʐ	i
+zy	zy	ʑ	i
+ʔ	'	ʔ	i
+kw	kw	k w	i m
+jaek	j ae k	j æ k /⁴	m n c t
+'jip	' j i p	ʔ j i p /⁴	i m n c t
+'jim	' j i m	ʔ j i m /¹	i m n c t
+jaem	j ae m	j æ m /¹	m n c t
+jaemH	j ae m H	j æ m H/³	m n c t
+jaemX	j ae m X	j æ m X/²	m n c t
+jaeng	j ae ng	j æ ŋ /¹	m n c t
+jaengH	j ae ng H	j æ ŋ H/³	m n c t
+jaengX	j ae ng X	j æ ŋ X/²	m n c t
+jaep	j ae p	j æ p /⁴	m n c t
+jak	j a k	j a k /⁴	m n c t
+jang	j a ng	j a ŋ /¹	m n c t
+jangH	j a ng H	j a ŋ H/³	m n c t
+jangX	j a ng X	j a ŋ X/²	m n c t
+jej	j e j	j e j /¹	m n c t
+jejH	j e j H	j e j H/³	m n c t
+jejX	j e j X	j e j X/²	m n c t
+jek	j e k	j e k /⁴	m n c t
+jem	j e m	j e m /¹	m n c t
+jemH	j e m H	j e m H/³	m n c t
+jemX	j e m X	j e m X/²	m n c t
+jen	j e n	j e n /¹	m n c t
+jenH	j e n H	j e n H/³	m n c t
+jenX	j e n X	j e n X/²	m n c t
+jeng	j e ng	j e ŋ /¹	m n c t
+jengH	j e ng H	j e ŋ H/³	m n c t
+jengX	j e ng X	j e ŋ X/²	m n c t
+jep	j e p	j e p /⁴	m n c t
+jet	j e t	j e t /⁴	m n c t
+jew	j e w	j e w /¹	m n c t
+jewH	j e w H	j e w H/³	m n c t
+jewX	j e w X	j e w X/²	m n c t
+jiej	ji e j	ji/j e j /¹	m n c t
+jiejH	ji e j H	ji/j e j H/³	m n c t
+jiejX	ji e j X	ji/j e j X/²	m n c t
+jiek	ji e k	ji/j e k /⁴	m n c t
+jien	ji e n	ji/j e n /¹	m n c t
+jienH	ji e n H	ji/j e n H/³	m n c t
+jienX	ji e n X	ji/j e n X/²	m n c t
+jieng	ji e ng	ji/j e ŋ /¹	m n c t
+jiengH	ji e ng H	ji/j e ŋ H/³	m n c t
+jiengX	ji e ng X	ji/j e ŋ X/²	m n c t
+jiet	ji e t	ji/j e t /⁴	m n c t
+jiew	ji e w	ji/j e w /¹	m n c t
+jiewH	ji e w H	ji/j e w H/³	m n c t
+jiewX	ji e w X	ji/j e w X/²	m n c t
+jij	j i j	j i j /¹	m n c t
+jijH	j i j H	j i j H/³	m n c t
+jijX	j i j X	j i j X/²	m n c t
+jin	j i n	j i n /¹	m n c t
+jinH	j i n H	j i n H/³	m n c t
+jinX	j i n X	j i n X/²	m n c t
+jit	j i t	j i t /⁴	m n c t
+jiw	j i w	j i w /¹	m n c t
+jiwH	j i w H	j i w H/³	m n c t
+jiwX	j i w X	j i w X/²	m n c t
+joj	j o j	j o j /¹	m n c t
+jojH	j o j H	j o j H/³	m n c t
+jojX	j o j X	j o j X/²	m n c t
+jom	j o m	j o m /¹	m n c t
+jomH	j o m H	j o m H/³	m n c t
+jomX	j o m X	j o m X/²	m n c t
+jon	j o n	j o n /¹	m n c t
+jonH	j o n H	j o n H/³	m n c t
+jonX	j o n X	j o n X/²	m n c t
+jop	j o p	j o p /⁴	m n c t
+jot	j o t	j o t /⁴	m n c t
+jowk	j o wk	j o kʷ /⁴	m n c t
+jowng	j o wng	j o ŋʷ /¹	m n c t
+jowngH	j o wng H	j o ŋʷ H/³	m n c t
+jowngX	j o wng X	j o ŋʷ X/²	m n c t
+jun	j u n	j u n /¹	m n c t
+junH	j u n H	j u n H/³	m n c t
+junX	j u n X	j u n X/²	m n c t
+jut	j u t	j u t /⁴	m n c t
+juw	j u w	j u w /¹	m n c t
+juwH	j u w H	j u w H/³	m n c t
+juwX	j u w X	j u w X/²	m n c t
+juwk	j u wk	j u kʷ /⁴	m n c t
+juwng	j u wng	j u ŋʷ /¹	m n c t
+juwngH	j u wng H	j u ŋʷ H/³	m n c t
+juwngX	j u wng X	j u ŋʷ X/²	m n c t
+jwaeng	jw ae ng	ɥ æ ŋ /¹	m n c t
+jwaengH	jw ae ng H	ɥ æ ŋ H/³	m n c t
+jwaengX	jw ae ng X	ɥ æ ŋ X/²	m n c t
+jwang	jw a ng	ɥ a ŋ /¹	m n c t
+jwangH	jw a ng H	ɥ a ŋ H/³	m n c t
+jwangX	jw a ng X	ɥ a ŋ X/²	m n c t
+jwej	jw e j	ɥ e j /¹	m n c t
+jwejH	jw e j H	ɥ e j H/³	m n c t
+jwejX	jw e j X	ɥ e j X/²	m n c t
+jwen	jw e n	ɥ e n /¹	m n c t
+jwenH	jw e n H	ɥ e n H/³	m n c t
+jwenX	jw e n X	ɥ e n X/²	m n c t
+jwet	jw e t	ɥ e t /⁴	m n c t
+jwien	jwi e n	jwi/ɥ e n /¹	m n c t
+jwienH	jwi e n H	jwi/ɥ e n H/³	m n c t
+jwienX	jwi e n X	jwi/ɥ e n X/²	m n c t
+jwieng	jwi e ng	jwi/ɥ e ŋ /¹	m n c t
+jwiengH	jwi e ng H	jwi/ɥ e ŋ H/³	m n c t
+jwiengX	jwi e ng X	jwi/ɥ e ŋ X/²	m n c t
+jwij	jwi j	jwi/ɥ i j /¹	m n c t
+jwijH	jwi j H	jwi/ɥ i j H/³	m n c t
+jwijX	jwi j X	jwi/ɥ i j X/²	m n c t
+jwin	jwi n	jwi/ɥ i n /¹	m n c t
+jwinH	jwi n H	jwi/ɥ i n H/³	m n c t
+jwinX	jwi n X	jwi/ɥ i n X/²	m n c t
+jwit	jwi t	jwi/ɥ i t /⁴	m n c t
+jwoj	jw o j	ɥ o j /¹	m n c t
+jwojH	jw o j H	ɥ o j H/³	m n c t
+jwojX	jw o j X	ɥ o j X/²	m n c t
+jwon	jw o n	ɥ o n /¹	m n c t
+jwonH	jw o n H	ɥ o n H/³	m n c t
+jwonX	jw o n X	ɥ o n X/²	m n c t
+jwot	jw o t	ɥ o t /⁴	m n c t
+jwæng	jw ae ng	ɥ æ ŋ /¹	m n c t
+jwængH	jw ae ng H	ɥ æ ŋ H/³	m n c t
+jwængX	jw ae ng X	ɥ æ ŋ X/²	m n c t
+jwɨj	jw + j	ɥ ɨ j /¹	m n c t
+jwɨjH	jw + j H	ɥ ɨ j H/³	m n c t
+jwɨjX	jw + j X	ɥ ɨ j X/²	m n c t
+jw+j	jw + j	ɥ ɨ j /¹	m n c t
+jw+jH	jw + j H	ɥ ɨ j H/³	m n c t
+jw+jX	jw + j X	ɥ ɨ j X/²	m n c t
+jæk	j ae k	j æ k /⁴	m n c t
+jæm	j ae m	j æ m /¹	m n c t
+jæmH	j ae m H	j æ m H/³	m n c t
+jæmX	j ae m X	j æ m X/²	m n c t
+jæng	j ae ng	j æ ŋ /¹	m n c t
+jængH	j ae ng H	j æ ŋ H/³	m n c t
+jængX	j ae ng X	j æ ŋ X/²	m n c t
+jæp	j ae p	j æ p /⁴	m n c t
+jɨj	j + j	j ɨ j /¹	m n c t
+jɨjH	j + j H	j ɨ j H/³	m n c t
+jɨjX	j + j X	j ɨ j X/²	m n c t
+jɨn	j + n	j ɨ n /¹	m n c t
+jɨnH	j + n H	j ɨ n H/³	m n c t
+jɨnX	j + n X	j ɨ n X/²	m n c t
+jɨt	j + t	j ɨ t /⁴	m n c t
+j+j	j + j	j ɨ j /¹	m n c t
+j+jH	j + j H	j ɨ j H/³	m n c t
+j+jX	j + j X	j ɨ j X/²	m n c t
+j+n	j + n	j ɨ n /¹	m n c t
+j+nH	j + n H	j ɨ n H/³	m n c t
+j+nX	j + n X	j ɨ n X/²	m n c t
+j+t	j + t	j ɨ t /⁴	m n c t
+waej	w ae j	w æ j /¹	m n c t
+waejH	w ae j H	w æ j H/³	m n c t
+waejX	w ae j X	w æ j X/²	m n c t
+waek	w ae k	w æ k /⁴	m n c t
+waen	w ae n	w æ n /¹	m n c t
+waenH	w ae n H	w æ n H/³	m n c t
+waenX	w ae n X	w æ n X/²	m n c t
+waeng	w ae ng	w æ ŋ /¹	m n c t
+waengH	w ae ng H	w æ ŋ H/³	m n c t
+waengX	w ae ng X	w æ ŋ X/²	m n c t
+waet	w ae t	w æ t /⁴	m n c t
+waj	w a j	w a j /¹	m n c t
+wajH	w a j H	w a j H/³	m n c t
+wajX	w a j X	w a j X/²	m n c t
+wak	w a k	w a k /⁴	m n c t
+wan	w a n	w a n /¹	m n c t
+wanH	w a n H	w a n H/³	m n c t
+wanX	w a n X	w a n X/²	m n c t
+wang	w a ng	w a ŋ /¹	m n c t
+wangH	w a ng H	w a ŋ H/³	m n c t
+wangX	w a ng X	w a ŋ X/²	m n c t
+wat	w a t	w a t /⁴	m n c t
+weaj	w ea j	w ɛ j /¹	m n c t
+weajH	w ea j H	w ɛ j H/³	m n c t
+weajX	w ea j X	w ɛ j X/²	m n c t
+weak	w ea k	w ɛ k /⁴	m n c t
+wean	w ea n	w ɛ n /¹	m n c t
+weanH	w ea n H	w ɛ n H/³	m n c t
+weanX	w ea n X	w ɛ n X/²	m n c t
+weat	w ea t	w ɛ t /⁴	m n c t
+wej	w e j	w e j /¹	m n c t
+wejH	w e j H	w e j H/³	m n c t
+wejX	w e j X	w e j X/²	m n c t
+wek	w e k	w e k /⁴	m n c t
+wen	w e n	w e n /¹	m n c t
+wenH	w e n H	w e n H/³	m n c t
+wenX	w e n X	w e n X/²	m n c t
+weng	w e ng	w e ŋ /¹	m n c t
+wengH	w e ng H	w e ŋ H/³	m n c t
+wengX	w e ng X	w e ŋ X/²	m n c t
+wet	w e t	w e t /⁴	m n c t
+wij	w i j	w i j /¹	m n c t
+wijH	w i j H	w i j H/³	m n c t
+wijX	w i j X	w i j X/²	m n c t
+win	w i n	w i n /¹	m n c t
+winH	w i n H	w i n H/³	m n c t
+winX	w i n X	w i n X/²	m n c t
+wit	w i t	w i t /⁴	m n c t
+woj	w o j	w o j /¹	m n c t
+wojH	w o j H	w o j H/³	m n c t
+wojX	w o j X	w o j X/²	m n c t
+wok	w o k	w o k /⁴	m n c t
+won	w o n	w o n /¹	m n c t
+wonH	w o n H	w o n H/³	m n c t
+wonX	w o n X	w o n X/²	m n c t
+wong	w o ng	w o ŋ /¹	m n c t
+wongH	w o ng H	w o ŋ H/³	m n c t
+wongX	w o ng X	w o ŋ X/²	m n c t
+wot	w o t	w o t /⁴	m n c t
+wæj	w ae j	w æ j /¹	m n c t
+wæjH	w ae j H	w æ j H/³	m n c t
+wæjX	w ae j X	w æ j X/²	m n c t
+wæk	w ae k	w æ k /⁴	m n c t
+wæn	w ae n	w æ n /¹	m n c t
+wænH	w ae n H	w æ n H/³	m n c t
+wænX	w ae n X	w æ n X/²	m n c t
+wæng	w ae ng	w æ ŋ /¹	m n c t
+wængH	w ae ng H	w æ ŋ H/³	m n c t
+wængX	w ae ng X	w æ ŋ X/²	m n c t
+wæt	w ae t	w æ t /⁴	m n c t
+wɛj	w ea j	w ɛ j /¹	m n c t
+wɛjH	w ea j H	w ɛ j H/³	m n c t
+wɛjX	w ea j X	w ɛ j X/²	m n c t
+wɛk	w ea k	w ɛ k /⁴	m n c t
+wɛn	w ea n	w ɛ n /¹	m n c t
+wɛnH	w ea n H	w ɛ n H/³	m n c t
+wɛnX	w ea n X	w ɛ n X/²	m n c t
+wɛt	w ea t	w ɛ t /⁴	m n c t
+jae	j ae	j æ /¹	m n t
+jaeH	j ae H	j æ H/³	m n t
+jaeX	j ae X	j æ X/²	m n t
+je	j e	j e /¹	m n t
+jeH	j e H	j e H/³	m n t
+jeX	j e X	j e X/²	m n t
+jie	ji e	ji/j e /¹	m n t
+jieH	ji e H	ji/j e H/³	m n t
+jieX	ji e X	ji/j e X/²	m n t
+jo	j o	j o /¹	m n t
+joH	j o H	j o H/³	m n t
+joX	j o X	j o X/²	m n t
+ju	j u	j u /¹	m n t
+juH	j u H	j u H/³	m n t
+juX	j u X	j u X/²	m n t
+jwe	jw e	ɥ e /¹	m n t
+jweH	jw e H	ɥ e H/³	m n t
+jweX	jw e X	ɥ e X/²	m n t
+jwie	jwi e	jwi/ɥ e /¹	m n t
+jwieH	jwi e H	jwi/ɥ e H/³	m n t
+jwieX	jwi e X	jwi/ɥ e X/²	m n t
+jæ	j ae	j æ /¹	m n t
+jæH	j ae H	j æ H/³	m n t
+jæX	j ae X	j æ X/²	m n t
+wa	w a	w a /¹	m n t
+waH	w a H	w a H/³	m n t
+waX	w a X	w a X/²	m n t
+wae	w ae	w æ /¹	m n t
+waeH	w ae H	w æ H/³	m n t
+waeX	w ae X	w æ X/²	m n t
+wea	w ea	w ɛ /¹	m n t
+weaH	w ea H	w ɛ H/³	m n t
+weaX	w ea X	w ɛ X/²	m n t
+wæ	w ae	w æ /¹	m n t
+wæH	w ae H	w æ H/³	m n t
+wæX	w ae X	w æ X/²	m n t
+wɛ	w ea	w ɛ /¹	m n t
+wɛH	w ea H	w ɛ H/³	m n t
+wɛX	w ea X	w ɛ X/²	m n t
+aej	ae j	æ j /¹	n c t
+aejH	ae j H	æ j H/³	n c t
+aejX	ae j X	æ j X/²	n c t
+aek	ae k	æ k /⁴	n c t
+aem	ae m	æ m /¹	n c t
+aemH	ae m H	æ m H/³	n c t
+aemX	ae m X	æ m X/²	n c t
+aen	ae n	æ n /¹	n c t
+aenH	ae n H	æ n H/³	n c t
+aenX	ae n X	æ n X/²	n c t
+aeng	ae n g	æ ŋ /¹	n c t
+aengH	ae n g H	æ ŋ H/³	n c t
+aengX	ae n g X	æ ŋ X/²	n c t
+aep	ae p	æ p /¹	n c t
+aet	ae t	æ t /¹	n c t
+aew	ae w	æ w /¹	n c t
+aewH	ae w H	æ w H/³	n c t
+aewX	ae w X	æ w X/²	n c t
+aewk	ae w k	æ kʷ /⁴	n c t
+aewng	ae w ng	æ ŋʷ /¹	n c t
+aewngH	ae w ng H	æ ŋʷ H/³	n c t
+aewngX	ae w ng X	æ ŋʷ X/²	n c t
+aj	a j	a j /¹	n c t
+ajH	a j H	a j H/³	n c t
+ajX	a j X	a j X/²	n c t
+ak	a k	a k /⁴	n c t
+am	a m	a m /¹	n c t
+amH	a m H	a m H/³	n c t
+amX	a m X	a m X/²	n c t
+an	a n	a n /¹	n c t
+anH	a n H	a n H/³	n c t
+anX	a n X	a n X/²	n c t
+ang	a ng	a ŋ /¹	n c t
+angH	a ng H	a ŋ H/³	n c t
+angX	a ng X	a ŋ X/²	n c t
+ap	a p	a p /⁴	n c t
+at	a t	a t /⁴	n c t
+aw	a w	a w /¹	n c t
+awH	a w H	a w H/³	n c t
+awX	a w X	a w X/²	n c t
+eaj	ea j	ɛ j /¹	n c t
+eajH	ea j H	ɛ j H/³	n c t
+eajX	ea j X	ɛ j X/²	n c t
+eak	ea k	ɛ k /⁴	n c t
+eam	ea m	ɛ m /¹	n c t
+eamH	ea m H	ɛ m H/³	n c t
+eamX	ea m X	ɛ m X/²	n c t
+ean	ea n	ɛ n /¹	n c t
+eanH	ea n H	ɛ n H/³	n c t
+eanX	ea n X	ɛ n X/²	n c t
+eang	ea n g	ɛ ŋ /¹	n c t
+eangH	ea n g H	ɛ ŋ H/³	n c t
+eangX	ea n g X	ɛ ŋ X/²	n c t
+eap	ea p	ɛ p /⁴	n c t
+eat	ea t	ɛ t /⁴	n c t
+ej	e j	e j /¹	n c t
+ejH	e j H	e j H/³	n c t
+ejX	e j X	e j X/²	n c t
+ek	e k	e k /⁴	n c t
+em	e m	e m /¹	n c t
+emH	e m H	e m H/³	n c t
+emX	e m X	e m X/²	n c t
+en	e n	e n /¹	n c t
+enH	e n H	e n H/³	n c t
+enX	e n X	e n X/²	n c t
+eng	e ng	e ŋ /¹	n c t
+engH	e ng H	e ŋ H/³	n c t
+engX	e ng X	e ŋ X/²	n c t
+ep	e p	e p /⁴	n c t
+et	e t	e t /⁴	n c t
+ew	e w	e w /¹	n c t
+ewH	e w H	e w H/³	n c t
+ewX	e w X	e w X/²	n c t
+ij	i j	i j /¹	n c t
+ijH	i j H	i j H/³	n c t
+ijX	i j X	i j X/²	n c t
+ik	i k	i k /⁴	n c t
+im	i m	i m /¹	n c t
+imH	i m H	i m H/³	n c t
+imX	i m X	i m X/²	n c t
+in	i n	i n /¹	n c t
+inH	i n H	i n H/³	n c t
+inX	i n X	i n X/²	n c t
+ing	i ng	i ŋ /¹	n c t
+ingH	i ng H	i ŋ H/³	n c t
+ingX	i ng X	i ŋ X/²	n c t
+ip	i p	i p /⁴	n c t
+it	i t	i t /⁴	n c t
+oj	o j	o j /¹	n c t
+ojH	o j H	o j H/³	n c t
+ojX	o j X	o j X/²	n c t
+ok	o k	o k /⁴	n c t
+om	o m	o m /¹	n c t
+omH	o m H	o m H/³	n c t
+omX	o m X	o m X/²	n c t
+on	o n	o n /¹	n c t
+onH	o n H	o n H/³	n c t
+onX	o n X	o n X/²	n c t
+ong	o n g	o ŋ /¹	n c t
+ongH	o n g H	o ŋ H/³	n c t
+ongX	o n g X	o ŋ X/²	n c t
+op	o p	o p /⁴	n c t
+owk	o w k	o kʷ /⁴	n c t
+owng	o w ng	o ŋʷ /¹	n c t
+owngH	o w ng H	o ŋʷ H/³	n c t
+owngX	o w ng X	o ŋʷ X/²	n c t
+uw	u w	u w /¹	n c t
+uwH	u w H	u w H/³	n c t
+uwX	u w X	u w X/²	n c t
+uwk	u w k	u kʷ /⁴	n c t
+uwng	u w ng	u ŋʷ /¹	n c t
+uwngH	u w ng H	u ŋʷ H/³	n c t
+uwngX	u w ng X	u ŋʷ X/²	n c t
+æj	ae j	æ j /¹	n c t
+æjH	ae j H	æ j H/³	n c t
+æjX	ae j X	æ j X/²	n c t
+æk	ae k	æ k /⁴	n c t
+æm	ae m	æ m /¹	n c t
+æmH	ae m H	æ m H/³	n c t
+æmX	ae m X	æ m X/²	n c t
+æn	ae n	æ n /¹	n c t
+ænH	ae n H	æ n H/³	n c t
+ænX	ae n X	æ n X/²	n c t
+æng	ae n g	æ ŋ /¹	n c t
+ængH	ae n g H	æ ŋ H/³	n c t
+ængX	ae n g X	æ ŋ X/²	n c t
+æp	ae p	æ p /¹	n c t
+æt	ae t	æ t /¹	n c t
+æw	ae w	æ w /¹	n c t
+æwH	ae w H	æ w H/³	n c t
+æwX	ae w X	æ w X/²	n c t
+æwk	ae w k	æ kʷ /⁴	n c t
+æwng	ae w ng	æ ŋʷ /¹	n c t
+æwngH	ae w ng H	æ ŋʷ H/³	n c t
+æwngX	ae w ng X	æ ŋʷ X/²	n c t
+ɛj	ea j	ɛ j /¹	n c t
+ɛjH	ea j H	ɛ j H/³	n c t
+ɛjX	ea j X	ɛ j X/²	n c t
+ɛk	ea k	ɛ k /⁴	n c t
+ɛm	ea m	ɛ m /¹	n c t
+ɛmH	ea m H	ɛ m H/³	n c t
+ɛmX	ea m X	ɛ m X/²	n c t
+ɛn	ea n	ɛ n /¹	n c t
+ɛnH	ea n H	ɛ n H/³	n c t
+ɛnX	ea n X	ɛ n X/²	n c t
+ɛng	ea n g	ɛ ŋ /¹	n c t
+ɛngH	ea n g H	ɛ ŋ H/³	n c t
+ɛngX	ea n g X	ɛ ŋ X/²	n c t
+ɛp	ea p	ɛ p /⁴	n c t
+ɛt	ea t	ɛ t /⁴	n c t
+a	a	a /¹	n t
+aH	a H	a H/³	n t
+aX	a X	a X/²	n t
+ae	ae	æ /¹	n t
+aeH	ae H	æ H/³	n t
+aeX	ae X	æ X/²	n t
+ea	ea	ɛ /¹	n t
+eaH	ea H	ɛ H/³	n t
+eaX	ea X	ɛ X/²	n t
+i	i	i /¹	n t
+iH	i H	i H/³	n t
+iX	i X	i X/²	n t
+u	u	u /¹	n t
+uH	u H	u H/³	n t
+uX	u X	u X/²	n t
+æ	ae	æ /¹	n t
+æH	ae H	æ H/³	n t
+æX	ae X	æ X/²	n t
+ɛ	ea	ɛ /¹	n t
+ɛH	ea H	ɛ H/³	n t
+ɛX	ea X	ɛ X/²	n t
+H	H	H/³	t
+X	X	X/²	t
+e	e	e /¹	n t
+eX	e X	e X/²	n t
+eH	e H	e H/³	n t
+o	o	o /¹	n t
+oX	o X	o X/²	n t
+oH	o H	o H/³	n t
+tsyhwe	tsyh w e	tɕʰ ɥ e /¹	i m n t
+tsyhweX	tsyh w e X	tɕʰ ɥ e X/²	i m n t 
+tsyhweH	tsyh w e H	tɕʰ ɥ e H/³	i m n t 
+tsywe	tsy w e	tɕ ɥ e /¹	i m n t
+tsyweX	tsy w e X	tɕ ɥ e X/²	i m n t 
+tsyweH	tsy w e H	tɕ ɥ e H/³	i m n t 
+sywe	sy w e	ɕ ɥ e /¹	i m n t
+syweX	sy w e X	ɕ ɥ e X/²	i m n t 
+syweH	sy w e H	ɕ ɥ e H/³	i m n t 
+zywe	zy w e	ʑ ɥ e /¹	i m n t
+zyweX	zy w e X	ʑ ɥ e X/²	i m n t 
+zyweH	zy w e H	ʑ ɥ e H/³	i m n t 
+xwik	x w i k	x w i k /⁴	i m n c t
+ʔjip	' j i p	ʔ j i p /⁴	i m n c t
+ʔjim	' j i m	ʔ j i m /¹	i m n c t
+hwik	h w i k	ɣ w i k /⁴	i m n c t
+gja	g j a	g j a p	i m n c
+kjwak	k jw a k	k ɥ a k	i m n c
+gjwa	g jw a	g ɥ a	i m n
+xjwa	x jw a	x ɥ a	i m n
+jwa	jw a	ɥ a	m n
+we	w e	w e	m n
+iw	i w	i w	n c
