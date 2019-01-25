@@ -1,8 +1,11 @@
-from clldutils.path import Path, remove, path_component
+from pathlib import Path
 from segments import Tokenizer
 
+
 def profile_path(*comps):
-    return Path(__file__).parent.joinpath('data', *comps).as_posix()
+    return Path(__file__).parent.joinpath('data', *comps)
+
 
 def get_orthography(name):
-    return Tokenizer(profile_path(name+'.tsv'))
+    return Tokenizer(profile_path(name + '.tsv'))
+
