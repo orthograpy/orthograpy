@@ -1,6 +1,7 @@
 import pytest
 
 from orthograpy import get_orthography
+from orthograpy.__main__ import main
 
 
 @pytest.mark.parametrize(
@@ -13,4 +14,10 @@ from orthograpy import get_orthography
 def test_orthograpy(profile, form, segmented):
     orth = get_orthography(profile)
     assert orth(form, column='IPA') == segmented
+
+
+def test_main(capsys):
+    main(['Wang1980', "tiang"])
+    out, _ = capsys.readouterr()
+    assert 't i a ŋ' in out
 

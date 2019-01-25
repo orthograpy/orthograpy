@@ -12,9 +12,10 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
     ],
-    version='0.1.0',
+    version='0.1.1.dev0',
     packages=find_packages(where='src'),
     package_dir={'': 'src'},
+    include_package_data=True,
     install_requires=['segments'],
     extras_require={
         'dev': [
@@ -30,5 +31,8 @@ setup(
             'pytest-cov',
             'coverage>=4.2',
         ],
+    },
+    entry_points={
+        'console_scripts': ['orthography=orthograpy.__main__:main'],
     },
 )
