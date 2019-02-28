@@ -1,18 +1,6 @@
-//var PROFILE = {'dummy': {
-//    'a': {'ipa': 'a'},
-//    'b': {'ipa': 'b'},
-//    'c': {'ipa': 'c'},
-//    'd': {'ipa': 'd'},
-//    'kh': {'ipa': 'kʰ'}
-//  }
-//};
-//
-//PROFILE.current = PROFILE.dummy;
-//PROFILE.column = 'grapheme';
-
 var profiles = {
-  'sinopy': ['grapheme', 'ipa', 'structure'],
-  'sampa': ['grapheme', 'ipa']
+  'sinopy': ['Grapheme', 'IPA', 'STRUCTURE'],
+  'sampa': ['Grapheme', 'IPA']
 };
 
 
@@ -20,12 +8,15 @@ function loadProfile(profile){
   var i, header, inputs;
   inputs = document.getElementById('converters');
   inputs.innerHTML = '<input id="grapheme" type="radio" checked onchange="PROFILE.column=this.dataset[\'value\']" data-value="grapheme" name="columns" />' + 
-    '<label for="grapheme">GRAPHEME</label>';
-  header = profiles[profile];
+    '<label for="grapheme">Grapheme</label>';
+  header = PROFILE[profile+'_labels'];
   for (i=1; i<header.length; i++) {
     inputs.innerHTML += '<input type="radio" id="'+header[i]+'" onchange="PROFILE.column=this.dataset[\'value\']" data-value="'+header[i]+'" name="columns" />' +
-      '<label for="'+header[i].toLowerCase()+'">'+header[i].toUpperCase()+'</label>';
+      '<label for="'+header[i]+'">'+header[i].toUpperCase()+'</label>';
   }
+  PROFILE.current = PROFILE[profile];
+  document.getElementById('currentprofile').innerHTML = profile;
+  PROFILE.column = 'Grapheme';
 }
 
 function profile() {
@@ -40,21 +31,24 @@ function profile() {
 	PROFILE['current'][row[0]] = {};
 	for (j=1; j<header.length; j++) {
 	  cell = row[j];
-	  PROFILE['current'][row[0]][header[j].toLowerCase()] = cell;
+	  PROFILE['current'][row[0]][header[j]] = cell;
 	}
       }
     }
   }
   inputs = document.getElementById('converters');
-  inputs.innerHTML = '<input id="grapheme" type="radio" checked onchange="PROFILE.column=this.dataset[\'value\']" data-value="grapheme" name="columns" />' + 
+  inputs.innerHTML = '<input id="grapheme" type="radio" checked onchange="PROFILE.column=this.dataset[\'value\']" data-value="Grapheme" name="columns" />' + 
     '<label for="grapheme">GRAPHEME</label>';
   for (i=1; i<header.length; i++) {
-    inputs.innerHTML += '<input type="radio" id="'+header[i]+'" onchange="PROFILE.column=this.dataset[\'value\']" data-value="'+header[i].toLowerCase()+'" name="columns" />' +
+    inputs.innerHTML += '<input type="checkbox" id="'+header[i]+'" onchange="PROFILE.column=this.dataset[\'value\']" data-value="'+header[i].toLowerCase()+'" name="columns" />' +
       '<label for="'+header[i].toLowerCase()+'">'+header[i].toUpperCase()+'</label>';
   }
+  document.getElementById('currentprofile').innerHTML = 'user-defined';
+  PROFILE.column = 'Grapheme';
 }
 
 function segmentize(word) {
+  word = word.normalize('NFD');
   if (word.length == 0) {
     return [word];
   }
@@ -89,7 +83,7 @@ function segmentize(word) {
     }
   }
   
-  if (PROFILE.column == 'grapheme') {
+  if (PROFILE.column.toLowerCase() == 'grapheme') {
     for (i=0; i<out.length; i++) {
       if (!(out[i] in PROFILE.current)) {
 	out[i] = '«'+out[i]+'»';
@@ -118,4 +112,13 @@ function segmentAndShow(value) {
 
 console.log(segmentize(''));
 //segmentAndShow('khabp');
-loadProfile('sinopy');
+
+
+var i;
+var pfs = document.getElementById('profiles');
+pfs.innerHTML = '<table><tr>';
+for (i=0; i<PROFILE['_profiles_'].length; i++) {
+  pfs.innerHTML += '<td><input class="sinput" type="button" onclick="loadProfile(\''+PROFILE['_profiles_'][i]+'\');" value="'+PROFILE['_profiles_'][i]+'" name="'+PROFILE['_profiles_'][i]+'" /></td>';
+}
+pfs.innerHTML += '</tr></table>';
+loadProfile(PROFILE['_profiles_'][0]);

@@ -10,10 +10,8 @@
 <body>
   <h1>SegmentsJS: A Java-Script Implementation of Orthography Profiles</h1>
   
-  <div>
-  <input class="sinput" type="button" onclick="loadProfile('sinopy');" value="SINOPY" name="sinopy" />
-  <br>
-  <input class="sinput" type="button" onclick="loadProfile('sampa');" value="SAMPA" name="sampa" />
+  <label for="currentprofile">Current Profile:</label> <span id="currentprofile"></span>
+  <div id="profiles"></div>
   </div>
   <br>
   <textarea class="lined" rows="10" cols="60" id="profile" placeholder="insert your profile here"></textarea>
