@@ -3,20 +3,31 @@ var profiles = {
   'sampa': ['Grapheme', 'IPA']
 };
 
+function addValue(value) {
+  var i;
+  PROFILE.column = [];
+  for (i=0; i<value.options.length; i++) {
+    if (value.options[i].selected) {
+      PROFILE.column.push(value.options[i].value);
+    }
+  }
+}
+
 
 function loadProfile(profile){
   var i, header, inputs;
-  inputs = document.getElementById('converters');
-  inputs.innerHTML = '<input id="grapheme" type="radio" checked onchange="PROFILE.column=this.dataset[\'value\']" data-value="grapheme" name="columns" />' + 
-    '<label for="grapheme">Grapheme</label>';
   header = PROFILE[profile+'_labels'];
+  inputs = document.getElementById('converters');
+  var text = '<select onchange="addValue(this)" id="selections" multiple>';
+  text += '<option id="grapheme" selected value="'+header[0]+'" name="columns">Grapheme</option>';
   for (i=1; i<header.length; i++) {
-    inputs.innerHTML += '<input type="radio" id="'+header[i]+'" onchange="PROFILE.column=this.dataset[\'value\']" data-value="'+header[i]+'" name="columns" />' +
-      '<label for="'+header[i]+'">'+header[i].toUpperCase()+'</label>';
+    text += '<option id="'+header[i]+'" value="'+header[i]+'">'+header[i]+'</option>';
   }
+  text += '</select>';
+  inputs.innerHTML = text;
   PROFILE.current = PROFILE[profile];
   document.getElementById('currentprofile').innerHTML = profile;
-  PROFILE.column = 'Grapheme';
+  PROFILE.column = [header[i]];
 }
 
 function profile() {
@@ -28,23 +39,32 @@ function profile() {
     if (typeof data[i] != 'undefined' && data[i].replace(/\s/g, '').length != 0) {
       row = data[i].split("\t");
       if (typeof row != "undefined") {
-	PROFILE['current'][row[0]] = {};
-	for (j=1; j<header.length; j++) {
-	  cell = row[j];
-	  PROFILE['current'][row[0]][header[j]] = cell;
-	}
+	      PROFILE['current'][row[0]] = {};
+	      for (j=1; j<header.length; j++) {
+	        cell = row[j];
+	        PROFILE['current'][row[0]][header[j]] = cell;
+	      }
       }
     }
   }
+  console.log(header);
   inputs = document.getElementById('converters');
-  inputs.innerHTML = '<input id="grapheme" type="radio" checked onchange="PROFILE.column=this.dataset[\'value\']" data-value="Grapheme" name="columns" />' + 
-    '<label for="grapheme">GRAPHEME</label>';
+  var text = '<select onchange="addValue(this)" id="selections" multiple>';
+  text += '<option id="grapheme" selected value="'+header[0]+'" name="columns">Grapheme</option>';
   for (i=1; i<header.length; i++) {
-    inputs.innerHTML += '<input type="checkbox" id="'+header[i]+'" onchange="PROFILE.column=this.dataset[\'value\']" data-value="'+header[i].toLowerCase()+'" name="columns" />' +
-      '<label for="'+header[i].toLowerCase()+'">'+header[i].toUpperCase()+'</label>';
+    text += '<option id="'+header[i]+'" value="'+header[i]+'">'+header[i]+'</option>';
   }
+  text += '</select>';
+  //inputs.innerHTML = text;
+  //inputs.innerHTML = '<input id="grapheme" type="radio" checked onchange="PROFILE.column=this.dataset[\'value\']" data-value="Grapheme" name="columns" />' + 
+  //  '<label for="grapheme">GRAPHEME</label>';
+  //for (i=1; i<header.length; i++) {
+  //  inputs.innerHTML += '<input type="radio" id="'+header[i]+'" onchange="PROFILE.column=this.dataset[\'value\']" data-value="'+header[i]+'" name="columns" />' +
+  //    '<label for="'+header[i]+'">'+header[i].toUpperCase()+'</label>';
+  //}
+  inputs.innerHTML = text;
   document.getElementById('currentprofile').innerHTML = 'user-defined';
-  PROFILE.column = 'Grapheme';
+  PROFILE.column = [header[0]]; //'Grapheme';
 }
 
 function segmentize(word) {
@@ -52,7 +72,7 @@ function segmentize(word) {
   if (word.length == 0) {
     return [word];
   }
-  var queue, scr, segmented, current, rest;
+  var queue, scr, segmented, current, rest, outputs, option, j;
   queue = [[[], word, '']];
   out = [];
   while (queue.length > 0) {
@@ -82,32 +102,66 @@ function segmentize(word) {
       queue.push([segmented.concat([current]), rest, '']);
     }
   }
+  outputs = [];
+  for (j=0; j<PROFILE.column.length; j++) {
+    queue = [];
+    option = PROFILE.column[j];
+    if (option.toLowerCase() == 'grapheme') {
+      for (i=0; i<out.length; i++) {
+	if (!(out[i] in PROFILE.current)) {
+	  queue.push('«'+out[i]+'»');
+	}
+	else {
+	  queue.push(out[i]);
+	}
+      }
+      outputs.push(queue);
+    }
+    else {
+      for (i=0; i<out.length; i++) {
+        if (out[i] in PROFILE.current && option in PROFILE.current[out[i]]) {
+	  cell = PROFILE.current[out[i]][option];
+          queue.push(cell);
+        }
+        else {
+          queue.push('«'+out[i]+'»');
+        }
+      }
+      outputs.push(queue);
+    }
+  }
   
-  if (PROFILE.column.toLowerCase() == 'grapheme') {
-    for (i=0; i<out.length; i++) {
-      if (!(out[i] in PROFILE.current)) {
-	out[i] = '«'+out[i]+'»';
-      }
-    }
-    return out;
-  }
-  else {
-    for (i=0; i<out.length; i++) {
-      if (out[i] in PROFILE.current && PROFILE.column in PROFILE.current[out[i]]) {
-	cell = PROFILE.current[out[i]][PROFILE.column];
-	  out[i] = cell;
-      }
-      else {
-	out[i] = '«'+out[i]+'»';
-      }
-    }
-    return out;
-  }
+  //if (PROFILE.column.toLowerCase() == 'grapheme') {
+  //  for (i=0; i<out.length; i++) {
+  //    if (!(out[i] in PROFILE.current)) {
+  //      out[i] = '«'+out[i]+'»';
+  //    }
+  //  }
+  //  return out;
+  //}
+  //else {
+  //  for (i=0; i<out.length; i++) {
+  //    if (out[i] in PROFILE.current && PROFILE.column in PROFILE.current[out[i]]) {
+  //      cell = PROFILE.current[out[i]][PROFILE.column];
+  //        out[i] = cell;
+  //    }
+  //    else {
+  //      out[i] = '«'+out[i]+'»';
+  //    }
+  //  }
+  //  return out;
+  //}
+  return outputs
 }
 
 function segmentAndShow(value) {
   var segments = segmentize(value);
-  document.getElementById('out').innerHTML = segments.join(' ');
+  var text = '<div>';
+  for (var i=0; i<segments.length; i++) {
+    text += '<span style="width:100px;display:table-cell;font-weight:bold;">'+PROFILE.column[i]+'</span><span class="tk">'+segments[i].join(' ').split(' ').join('</span><span class="tk">')+'</span><br>';
+  }
+  text += '</div>';
+  document.getElementById('out').innerHTML = text; //segments.join(' ');
 }
 
 console.log(segmentize(''));
