@@ -55,13 +55,6 @@ function profile() {
     text += '<option id="'+header[i]+'" value="'+header[i]+'">'+header[i]+'</option>';
   }
   text += '</select>';
-  //inputs.innerHTML = text;
-  //inputs.innerHTML = '<input id="grapheme" type="radio" checked onchange="PROFILE.column=this.dataset[\'value\']" data-value="Grapheme" name="columns" />' + 
-  //  '<label for="grapheme">GRAPHEME</label>';
-  //for (i=1; i<header.length; i++) {
-  //  inputs.innerHTML += '<input type="radio" id="'+header[i]+'" onchange="PROFILE.column=this.dataset[\'value\']" data-value="'+header[i]+'" name="columns" />' +
-  //    '<label for="'+header[i]+'">'+header[i].toUpperCase()+'</label>';
-  //}
   inputs.innerHTML = text;
   document.getElementById('currentprofile').innerHTML = 'user-defined';
   PROFILE.column = [header[0]]; //'Grapheme';
