@@ -27,6 +27,7 @@ def create_profiles():
         for profile in profiles:
             pname = profile.split('/')[-1][:-4]
             if not pname in ['orthographies']:
+                print(pname)
                 prf = get_orthography(pname)
                 D[pname] = prf.op.graphemes
                 D['_profiles_'] += [pname]
