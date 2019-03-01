@@ -1,0 +1,51 @@
+Grapheme	IPA	Notes
+a	a	
+â	aː	
+e	e	
+ê	eː	
+i	i	
+î	iː	
+o	o	
+ô	oː	
+u	u	
+û	uː	
+b	b	
+bb	bː	
+c	k	
+ck	kː	
+kk	kː	
+d	d	
+dd	dː	
+f	f	
+ff	fː	
+g	g	
+gg	gː	
+^h	h	
+hh	xː	
+h	x	may also represent h, manual correction necessary
+k	k	
+l	l	
+ll	lː	
+m	m	
+mm	mː	
+n	n	
+nn	nː	
+p	p	
+pp	pː	
+pf	pf	
+ph	pf	
+qu	kʷ	
+kw	kʷ	
+r	r	
+rr	rː	
+s	s	
+ss	sː	
+t	t	
+tt	tː	
+v	w	may also represent f, manual correction necessary
+w	w	
+zz	sː	may also represent ts, manual correction necessary
+z	ts	
+-	+	
+^	NULL	
+$	NULL	
