@@ -3,6 +3,6 @@ Wang1980	Johann-Mattis List	Wang1980	Orthography,IPA,Structure	This orthography 
 SinoPy	Johann-Mattis List	List2018g	IPA,Structure	This profile is intended as a master list for the segmentation of Chinese dialect data and (more generally) Sino-Tibetan and SEA language data. The list was compiled in a very technical fashion, during which artificial sound sequences were automatically created. The goal is to provide a powerful orthography profile that makes it easy to test and segment SEA language data.
 Baxter1992	Johann-Mattis List	Baxter1992	Orthography,IPA,Structure	This profile parses Baxter's (1992) system for Middle Chinese reconstruction into a segmented version as well as IPA and the phonotactics structure in Middle Chinese.
 Allen2007	Johann-Mattis List	Allen2007	Orthography,IPA,Structure	This profile converts the data in Allen's (2007) "Bai Dialect Survey" to prosodic structures and IPA.
-ids_Gothic	Nathanael E. Schweikhard	Braune2004a	IPA	This orthography profile converts normalized Gothic into phonemic IPA.
-wold_OldHighGerman	Nathanael E. Schweikhard	Braune2004	IPA	This orthography profile converts normalized Old High German into phonemic IPA.
-ids_OldNorse	Nathanael E. Schweikhard	Valfells1981	IPA	This orthography profile converts normalized Old Icelandic into phonemic IPA.
+Gothic_Braune2004a	Nathanael E. Schweikhard	Braune2004a	IPA	This orthography profile converts normalized Gothic into phonemic IPA.
+OldHighGerman_Braune2004	Nathanael E. Schweikhard	Braune2004	IPA	This orthography profile converts normalized Old High German into phonemic IPA.
+OldNorse_Valfells1981	Nathanael E. Schweikhard	Valfells1981	IPA	This orthography profile converts normalized Old Icelandic into phonemic IPA.
