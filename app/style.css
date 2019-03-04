@@ -12,3 +12,13 @@
 	margin-bottom: 5px;
 	margin-top: 5px;
 }
+
+.tk {
+	width: 30px;
+	background-color: lightgray;
+	padding: 5px;
+	margin: 10px;
+	display: table-cell;
+	border: 2px solid white;
+	text-align: center;
+}
